@@ -1,0 +1,1685 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ca6c305e-9b8f-4af3-931c-d1ea890f425b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 72.39 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05912a85-03bd-4a50-b026-80709f7b9453")
+	)
+	(junction
+		(at 139.7 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ef00d8-f398-4125-9a4d-2d2f78f0a095")
+	)
+	(junction
+		(at 116.84 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f50e34-011e-490d-b22c-bd2557569149")
+	)
+	(junction
+		(at 24.765 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "834602e4-80d1-45b1-afb8-c21fc25fb63b")
+	)
+	(junction
+		(at 49.53 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9de21e24-46d7-4954-8d29-cebe79441237")
+	)
+	(junction
+		(at 185.42 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc6a8db-42a1-4a18-a188-ee4cf5078e7b")
+	)
+	(junction
+		(at 95.25 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4bfe98e-cfc1-4b89-92d9-3c3a1aa6ed0e")
+	)
+	(junction
+		(at 162.56 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e58a57b5-fe4a-481e-ad90-405098a6e520")
+	)
+	(junction
+		(at 208.28 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7ebcfb3-bf7a-4072-b38c-262d616fcaa3")
+	)
+	(wire
+		(pts
+			(xy 162.56 67.31) (xy 162.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0e4a19-0a27-4ee1-905a-cd35deb50dab")
+	)
+	(wire
+		(pts
+			(xy 45.72 95.25) (xy 45.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5c8121-882e-4352-b3dd-7ac1befc4339")
+	)
+	(wire
+		(pts
+			(xy 72.39 62.23) (xy 49.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ad152c-9c94-4ca5-9b3b-c55149be62ec")
+	)
+	(wire
+		(pts
+			(xy 68.58 95.25) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1927070d-f52b-4cf1-99bf-d63e5ddfce22")
+	)
+	(wire
+		(pts
+			(xy 24.765 50.165) (xy 24.765 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9f8b68-88fa-420b-bb66-9937a33ef2e1")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6de55c-49ea-41e8-b091-51696fb8ffb4")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 208.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8c65bc-3002-4930-92d8-2de6b7134932")
+	)
+	(wire
+		(pts
+			(xy 204.47 97.79) (xy 204.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc64807-f388-4f74-bff3-2501e0ef2cf8")
+	)
+	(wire
+		(pts
+			(xy 113.665 92.71) (xy 113.665 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41da40b3-9802-46d2-b34c-9f199b497075")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5707bd70-8b5a-406f-84ca-923ded61608e")
+	)
+	(wire
+		(pts
+			(xy 116.84 62.23) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd8d3db-9f76-4402-80aa-3fba00ed20e6")
+	)
+	(wire
+		(pts
+			(xy 135.89 96.52) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622818d9-09e8-4aa7-ac88-0dc430e01232")
+	)
+	(wire
+		(pts
+			(xy 91.44 96.52) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6385ea16-d0d6-40bd-a8a3-4be176be213c")
+	)
+	(wire
+		(pts
+			(xy 139.7 62.23) (xy 162.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7433c9f9-33fc-4ea0-99cd-621362bd253a")
+	)
+	(wire
+		(pts
+			(xy 49.53 62.23) (xy 24.765 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f45196-3ea7-47dd-b56f-464f22562368")
+	)
+	(wire
+		(pts
+			(xy 116.84 62.23) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bdb64b-7de5-455e-b528-d0573405564a")
+	)
+	(wire
+		(pts
+			(xy 139.7 62.23) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db8ed6a-bfa3-4152-9638-b526ce575caa")
+	)
+	(wire
+		(pts
+			(xy 181.61 97.79) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951aac11-b9e4-4236-ab6e-b6a87e01d330")
+	)
+	(wire
+		(pts
+			(xy 49.53 66.04) (xy 49.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95813946-69b6-4fe1-a4c6-859ef12bcc6c")
+	)
+	(wire
+		(pts
+			(xy 72.39 66.04) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b40b4c3-05f3-4fac-ac3b-2dc6a7d3f6df")
+	)
+	(wire
+		(pts
+			(xy 24.765 62.23) (xy 24.765 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b623344d-be0a-4411-9808-cc4ac7618b32")
+	)
+	(wire
+		(pts
+			(xy 21.59 92.71) (xy 21.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbea1d12-ad78-44b8-b47f-b2223c96164e")
+	)
+	(wire
+		(pts
+			(xy 208.28 62.23) (xy 220.98 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0c64dc-56a2-4028-8d55-379ff435ed61")
+	)
+	(wire
+		(pts
+			(xy 95.25 66.04) (xy 95.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e6315c-109b-49a1-8269-a8b09e15f9d6")
+	)
+	(wire
+		(pts
+			(xy 95.25 62.23) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82e2f0c-c632-4ca1-8123-cff5916dec84")
+	)
+	(wire
+		(pts
+			(xy 24.765 42.545) (xy 24.765 43.815)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21cf8a0-5aab-4b78-81e3-e1d4b2d8b738")
+	)
+	(wire
+		(pts
+			(xy 162.56 62.23) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8741781-4095-4693-925c-12e0160bf9bd")
+	)
+	(wire
+		(pts
+			(xy 208.28 62.23) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99a0827-0f72-4f56-b0f6-5a6d25a2498e")
+	)
+	(wire
+		(pts
+			(xy 95.25 62.23) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f02210-e69f-484d-8d86-b1b437e8f3e9")
+	)
+	(hierarchical_label "Activate_{8}"
+		(shape input)
+		(at 181.61 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e017cde-81dd-472d-85c2-c6f0c9e574a5")
+	)
+	(hierarchical_label "Activate_{6}"
+		(shape input)
+		(at 135.89 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e5500b0-ee83-424b-9aa0-6488a313df4b")
+	)
+	(hierarchical_label "Activate_{9}"
+		(shape input)
+		(at 204.47 97.79 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4902b011-acfa-4d7b-b061-584cd6c76872")
+	)
+	(hierarchical_label "Activate_{4}"
+		(shape input)
+		(at 91.44 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54248592-5ed7-4079-a604-f8016f31e76d")
+	)
+	(hierarchical_label "MUX_Read"
+		(shape output)
+		(at 220.98 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63033fad-eb49-4c00-bb32-cc587f2c72e1")
+	)
+	(hierarchical_label "Activate_{1}"
+		(shape input)
+		(at 21.59 92.71 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fe95bbd-a2c9-4dcd-8828-4e9d9af064bb")
+	)
+	(hierarchical_label "Activate_{5}"
+		(shape input)
+		(at 113.665 92.71 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "928c1956-c6eb-49cd-b6f3-b59859e3b65c")
+	)
+	(hierarchical_label "Activate_{2}"
+		(shape input)
+		(at 45.72 95.25 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0b69185-33aa-4e2c-9271-248db59f13ae")
+	)
+	(hierarchical_label "Activate_{3}"
+		(shape input)
+		(at 68.58 95.25 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d07bbf9f-8111-4b79-be28-7a5ecf92816a")
+	)
+	(hierarchical_label "Activate_{7}"
+		(shape input)
+		(at 158.75 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb1a6e7d-2007-4d54-95df-60bc3c7691d6")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 24.765 46.355 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07f196ae-7af3-4866-a868-3f0f19748315")
+		(property "Reference" "R1"
+			(at 18.415 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 20.955 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.543 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.765 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.765 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "132d9531-3add-4392-a588-6fc9985fbf1c")
+		)
+		(pin "1"
+			(uuid "c12f63dd-6e5b-4963-8823-dfa3e9b74c74")
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 24.765 43.815 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ac70ea4-49ea-4bd2-9099-2c14d1a0c19b")
+		(property "Reference" "#PWR017"
+			(at 24.765 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 24.7649 40.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.765 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.765 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 24.765 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2bd10de-7185-46a1-82e2-3240b36c5b09")
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.855 66.04)
+		(size 11.43 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10cccadf-1297-4202-be2b-ab5ef78b640c")
+		(property "Sheetname" "photodiode4"
+			(at 109.1434 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 121.8696 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_Anode" passive
+			(at 113.665 81.28 270)
+			(uuid "727ad93a-2687-401c-b54b-79597177d56a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_Cathode" passive
+			(at 116.84 66.04 90)
+			(uuid "a557bdb9-6de5-46c2-bfcb-7f543b15185c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "201")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "217")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "233")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "249")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "265")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "281")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "297")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "313")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "329")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 67.31)
+		(size 11.43 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34fd7c4d-1b3f-40ba-88ef-64c5423a03b3")
+		(property "Sheetname" "photodiode6"
+			(at 154.2284 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 166.9546 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_Anode" passive
+			(at 158.75 82.55 270)
+			(uuid "a4beffe6-906d-472c-a404-7e4f3a95789d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_Cathode" passive
+			(at 162.56 67.31 90)
+			(uuid "89a1443b-7b3b-421f-a188-701c59616696")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "203")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "219")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "235")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "251")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "267")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "283")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "299")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "315")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "331")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 66.04)
+		(size 11.43 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "415bfffb-9707-4fcc-bafd-8dce2c113eab")
+		(property "Sheetname" "photodiode3"
+			(at 86.9184 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 99.6446 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_Anode" passive
+			(at 91.44 81.28 270)
+			(uuid "4a01026e-05a8-444e-b256-bff79f4804b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_Cathode" passive
+			(at 95.25 66.04 90)
+			(uuid "3d419ed7-e503-4056-a441-fad700fa1fd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "9")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "31")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "53")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "75")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "97")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "119")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "141")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "163")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "185")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 66.04)
+		(size 11.43 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4224e5b5-316c-4c81-a1ba-5949fa6390d6")
+		(property "Sheetname" "photodiode2"
+			(at 64.0584 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 76.7846 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_Anode" passive
+			(at 68.58 81.28 270)
+			(uuid "7cdad47e-b892-4840-aab4-740c47635ffa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_Cathode" passive
+			(at 72.39 66.04 90)
+			(uuid "21d72c1b-623a-44b6-b3d4-ffdffc56a879")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "7")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "29")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "51")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "73")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "95")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "117")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "139")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "161")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "183")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 67.31)
+		(size 11.43 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48f2c726-3485-47df-8dd1-3325a7096560")
+		(property "Sheetname" "photodiode5"
+			(at 131.3684 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 144.0946 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_Anode" passive
+			(at 135.89 82.55 270)
+			(uuid "45f08622-c6e9-4fb7-8f2e-841e4a37b663")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_Cathode" passive
+			(at 139.7 67.31 90)
+			(uuid "81169811-57c3-4e6a-92d0-d6bc43a953b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "202")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "218")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "234")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "250")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "266")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "282")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "298")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "314")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "330")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 66.04)
+		(size 11.43 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64ce00c6-6edc-49aa-83c7-2fa9118b676f")
+		(property "Sheetname" "photodiode1"
+			(at 41.1984 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 53.9246 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_Anode" passive
+			(at 45.72 81.28 270)
+			(uuid "a82e2f94-f53e-45ba-9e97-a085610761d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_Cathode" passive
+			(at 49.53 66.04 90)
+			(uuid "bf5f321b-e860-44f8-8b5b-8638d9ae1077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "8")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "30")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "52")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "74")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "96")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "118")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "140")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "162")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "184")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 67.31)
+		(size 11.43 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97cb8561-f0c2-462b-a8cd-d8a3205c87ff")
+		(property "Sheetname" "photodiode7"
+			(at 177.0884 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 189.8146 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_Anode" passive
+			(at 181.61 82.55 270)
+			(uuid "087b17eb-48ce-4a20-812f-c549b260d32e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_Cathode" passive
+			(at 185.42 67.31 90)
+			(uuid "47e1c8cb-4675-4526-94ab-5b21ac9f7083")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "204")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "220")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "236")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "252")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "268")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "284")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "300")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "316")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "332")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 67.31)
+		(size 11.43 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6522b20-07b8-47bb-bb8c-400a5b0d6929")
+		(property "Sheetname" "photodiode8"
+			(at 199.9484 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 212.6746 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_Anode" passive
+			(at 204.47 82.55 270)
+			(uuid "1d6a9963-867d-4700-8202-bcc9f4bc990f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_Cathode" passive
+			(at 208.28 67.31 90)
+			(uuid "7551aeda-db38-48df-bb33-e456179d9d55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "345")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "349")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "353")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "357")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "361")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "365")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "369")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "373")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "377")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 66.04)
+		(size 11.43 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e58ea4dc-5ebf-4ee2-9890-21ce42b86e4d")
+		(property "Sheetname" "photodiode"
+			(at 17.0684 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 29.7946 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_Anode" passive
+			(at 21.59 81.28 270)
+			(uuid "e9a714bc-702e-4e10-8ee9-90ca967ed66d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_Cathode" passive
+			(at 24.765 66.04 90)
+			(uuid "6c4c0556-d284-4e07-b497-ef5a2508ed0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cco-dancefloor"
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/ac0c646c-5bcb-4d03-a7fb-671f704277b3/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "6")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/c0cbe7c3-4c79-4bee-b3ec-2f0dc0ad8a76/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "28")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/7c525dd3-06db-4ec4-bff5-f56480384bbd/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "50")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/e969bdd1-2112-418a-801f-e89ae4d271d8/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "72")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/be7fdcf7-bfbe-406b-bce9-1ce048e54f18/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "94")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/fd127644-f733-4964-b178-5d6e0622804e/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "116")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/f653e732-3366-4c63-a82b-11d394ce5fd6/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "138")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/2488de9c-3d20-43fe-a1a7-0f07154ff668/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "160")
+				)
+				(path "/efbcbd21-eef0-4a79-980a-cd9eb9e71161/e42d2aee-bb46-422f-bac9-0afcaaaced16/d5977122-9a92-472a-90af-bf3c71300823/01617491-e2fc-4f44-bf8f-9484b1bc4f7a"
+					(page "182")
+				)
+			)
+		)
+	)
+)
